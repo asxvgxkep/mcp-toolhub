@@ -25,11 +25,15 @@ request into a bounded, reviewable, replay-resistant local action.
 | Immutable execution snapshots | Approved writes, patches, and commands resume from protected state, expire, and are consumed exactly once. |
 | Confined and observable execution | Workspace paths are bounded; subprocess output, runtime, and audit reads are capped; lifecycle events share a `trace_id`. |
 
-## See it in 90 seconds
+## See it in 60 seconds
 
-The [demo](docs/demo.md) initializes the server, lists exactly 14 tools, reads
-a file, pauses a write at `APPROVAL_REQUIRED`, resumes it after human approval,
-shows the correlated audit trail, and proves replay is refused.
+[Watch the 60-second demo video](docs/demo/MCP-ToolHub_demo.mp4).
+
+It lists exactly 14 tools, reads a file, pauses a write at
+`APPROVAL_REQUIRED`, requires approval in the separate trusted admin process,
+resumes execution, consumes the approval exactly once, and rejects replay.
+
+For a reproducible walkthrough, see the [demo guide](docs/demo.md).
 
 ## Quick start
 
@@ -177,7 +181,8 @@ not turn approved programs into safely sandboxed code. See
 - [Architecture and threat model](docs/architecture.md)
 - [Approval lifecycle and Contract V1](docs/approval-lifecycle.md)
 - [Operations and troubleshooting](docs/operations.md)
-- [60–120 second demo](docs/demo.md)
+- [60-second demo video](docs/demo/MCP-ToolHub_demo.mp4)
+- [Demo reproduction guide](docs/demo.md)
 - [Audit maintenance recovery](docs/audit-maintenance-recovery.md)
 - [v0.1.0 release checklist](docs/release-checklist.md)
 
