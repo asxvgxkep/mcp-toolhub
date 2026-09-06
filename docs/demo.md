@@ -1,4 +1,4 @@
-# 60–120 second demo
+# Demo reproduction guide
 
 This demo uses a throwaway workspace, a separate trusted state directory, the
 public stdio MCP API, and the real administrator CLI. It demonstrates the
