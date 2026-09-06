@@ -27,7 +27,7 @@ request into a bounded, reviewable, replay-resistant local action.
 
 ## See it in 60 seconds
 
-[Watch the 60-second demo video](docs/demo/MCP-ToolHub_demo.mp4).
+https://github.com/user-attachments/assets/8cab7be6-e43f-40a9-b6c6-ea7fae61acab
 
 It lists exactly 14 tools, reads a file, pauses a write at
 `APPROVAL_REQUIRED`, requires approval in the separate trusted admin process,
@@ -181,7 +181,6 @@ not turn approved programs into safely sandboxed code. See
 - [Architecture and threat model](docs/architecture.md)
 - [Approval lifecycle and Contract V1](docs/approval-lifecycle.md)
 - [Operations and troubleshooting](docs/operations.md)
-- [60-second demo video](docs/demo/MCP-ToolHub_demo.mp4)
 - [Demo reproduction guide](docs/demo.md)
 - [Audit maintenance recovery](docs/audit-maintenance-recovery.md)
 - [v0.1.0 release checklist](docs/release-checklist.md)
