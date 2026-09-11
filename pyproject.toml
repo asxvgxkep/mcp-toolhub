@@ -6,8 +6,6 @@ readme = "README.md"
 authors = [
     { name = "Zhihao Chen", email = "2212448547@qq.com" }
 ]
-license = "MIT"
-license-files = ["LICENSE"]
 requires-python = ">=3.12"
 keywords = ["developer-tools", "gateway", "git", "mcp", "model-context-protocol"]
 classifiers = [
