@@ -1,7 +1,6 @@
 # MCP ToolHub
 
 [![CI](https://github.com/zhihaochen67/mcp-toolhub/actions/workflows/ci.yml/badge.svg)](https://github.com/zhihaochen67/mcp-toolhub/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
 MCP ToolHub is a local, stdio-only Model Context Protocol (MCP) execution
@@ -208,7 +207,3 @@ uv run python scripts/artifact_smoke.py --dist-dir dist --venv /tmp/mcp-toolhub-
 On Windows, use a temporary path such as
 `"$env:TEMP\mcp-toolhub-wheel-env"` for `--venv`. CI runs the complete gate and
 wheel smoke test on Ubuntu and Windows with Python 3.12 and 3.13.
-
-## License
-
-[MIT](LICENSE)
